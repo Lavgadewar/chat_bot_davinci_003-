@@ -37,7 +37,7 @@ function Basic() {
 
   const { Configuration, OpenAIApi } = require("openai");
   const configuration = new Configuration({
-    apiKey: "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",
+    apiKey: "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",
   });
   const openai = new OpenAIApi(configuration);
   const getOpenAIRespoense = () => {
